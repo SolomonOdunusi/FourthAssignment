@@ -55,6 +55,11 @@ nav ul li a:hover {
 .profile {
     width: 40px;
     margin: 0 30px;
+    transition: .7s ease-in-out;
+    cursor: pointer;
+}
+.profile:hover {
+transform: rotate(360deg);
 }
 
 .cart {
